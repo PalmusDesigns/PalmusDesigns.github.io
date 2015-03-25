@@ -3,31 +3,68 @@
 html{min-width:960px}
 body{
 	font: 14px/22px "Helvetica Neue", Arial, Helvetica, sans-serif;
-	background-color:#87CEFA;
+	background-color: #444;
+	background-image:url(light_toast.png);
 	color: #444;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 }
 
 #container{
-	margin-left:auto;
-	margin-top:0;
-	margin-right:auto;
-	background-color: #f0f0f0;
-	background-image:url(light_toast.png);
 	width: 960px;
-	min-height:1640px;
 }
 
 a:hover, a:active{
 	 color:#000;
 }
 
-#main-logo{
+/*#main-logo{
 	color: #444;
 	margin-left:1%;
 	font-style: bold;
 	text-transform:uppercase;
 	text-decoration:none;
 	font-size: xx-large;
+}*/
+
+#nav{
+	background-color:#87CEFA;
+	position: fixed;
+	width: 100%;
+	top:0;
+}
+
+#nav-wrapper{
+	width: 960px;
+	margin: 0, auto, 0, auto;
+	text-align:right;
+}
+
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav ul li{
+	display: inline-block;
+}
+
+#nav ul li:hover{
+	background-color:#444;
+}
+
+#nav ul li a,visited{
+	display: block;
+	padding: 15px;
+	text-decoration:none;
+	color: #f0f0f0;
+}
+
+#nav ul li{
+	margin-left:1%;
+	font-style: bold;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size: large;
 }
