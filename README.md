@@ -1,2 +1,0 @@
-# PalmusDesigns.github.io
-Website
